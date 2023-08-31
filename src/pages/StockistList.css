@@ -1,0 +1,81 @@
+/* StockistList.css */
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  /* StockistList.css */
+  /* StockistList.css */
+.stockist-list-content {
+  margin-left: 70px; /* Adjust this value based on your side navbar width */
+  width: calc(100% - 70px); /* Adjust based on the sidebar width */
+  padding: 10px; /* Add padding to the content */
+  box-sizing: border-box;
+}
+
+.search-list-content {
+  margin-left: 70px; /* Adjust this value based on your side navbar width */
+  width: calc(100% - 70px); /* Adjust based on the sidebar width */
+  padding: 20px; /* Add padding to the content */
+}
+
+
+  /* StockistList.css */
+/* ... (your existing styles) */
+
+/* StockistList.css */
+/* ... (your existing styles) */
+
+/* StockistList.css */
+/* StockistList.css */
+.search-add-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Search input */
+.search input[type="text"] {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Search button */
+.search button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search input[type="text"] + button[type="button"] {
+  margin-left: 10px;
+}
+
+
+/* Add Stockist button */
+.add button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
